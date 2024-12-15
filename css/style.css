@@ -1244,10 +1244,6 @@ video {
   margin-top: 0.75rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -1346,10 +1342,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.min-w-0 {
-  min-width: 0px;
 }
 
 .max-w-2xl {
@@ -1585,16 +1577,6 @@ video {
   border-color: transparent;
 }
 
-.border-neutral-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(150 155 167 / var(--tw-border-opacity, 1));
-}
-
-.border-neutral-950 {
-  --tw-border-opacity: 1;
-  border-color: rgb(10 10 10 / var(--tw-border-opacity, 1));
-}
-
 .border-b-neutral-800\/10 {
   border-bottom-color: rgb(30 32 36 / 0.1);
 }
@@ -1646,11 +1628,6 @@ video {
 .bg-zinc-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(244 244 245 / var(--tw-bg-opacity, 1));
-}
-
-.bg-neutral-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(205 208 213 / var(--tw-bg-opacity, 1));
 }
 
 .bg-center {
@@ -1770,16 +1747,6 @@ video {
 .py-96 {
   padding-top: 24rem;
   padding-bottom: 24rem;
-}
-
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 .pb-12 {
@@ -1993,38 +1960,8 @@ video {
   color: rgb(24 24 27 / var(--tw-text-opacity, 1));
 }
 
-.text-neutral-300 {
-  --tw-text-opacity: 1;
-  color: rgb(150 155 167 / var(--tw-text-opacity, 1));
-}
-
-.text-neutral-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
-}
-
-.text-neutral-900 {
-  --tw-text-opacity: 1;
-  color: rgb(5 5 6 / var(--tw-text-opacity, 1));
-}
-
-.text-neutral-950 {
-  --tw-text-opacity: 1;
-  color: rgb(10 10 10 / var(--tw-text-opacity, 1));
-}
-
 .text-opacity-40 {
   --tw-text-opacity: 0.4;
-}
-
-.placeholder-gray-500::-moz-placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-placeholder-opacity, 1));
-}
-
-.placeholder-gray-500::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-placeholder-opacity, 1));
 }
 
 .opacity-0 {
@@ -2207,11 +2144,6 @@ EmojiSymbols;
   background-color: rgb(143 0 0 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:text-primary-500:hover {
   --tw-text-opacity: 1;
   color: rgb(255 0 0 / var(--tw-text-opacity, 1));
@@ -2232,15 +2164,6 @@ EmojiSymbols;
 }
 
 .focus\:border-gray-500:focus {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
-}
-
-.focus\:border-transparent:focus {
-  border-color: transparent;
-}
-
-.focus\:border-neutral-500:focus {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
 }
@@ -2292,11 +2215,6 @@ EmojiSymbols;
   --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity, 1));
 }
 
-.focus\:ring-neutral-500:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(107 114 128 / var(--tw-ring-opacity, 1));
-}
-
 .focus\:ring-offset-2:focus {
   --tw-ring-offset-width: 2px;
 }
@@ -2332,19 +2250,9 @@ EmojiSymbols;
   border-color: rgb(75 85 99 / var(--tw-border-opacity, 1));
 }
 
-.dark\:border-neutral-50:is(.dark *) {
-  --tw-border-opacity: 1;
-  border-color: rgb(205 208 213 / var(--tw-border-opacity, 1));
-}
-
-.dark\:border-neutral-600:is(.dark *) {
-  --tw-border-opacity: 1;
-  border-color: rgb(81 87 97 / var(--tw-border-opacity, 1));
-}
-
-.dark\:bg-gray-900:is(.dark *) {
+.dark\:bg-gray-800:is(.dark *) {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
 }
 
 .dark\:bg-neutral-800:is(.dark *) {
@@ -2369,9 +2277,9 @@ EmojiSymbols;
   background-color: rgb(87 0 0 / 0.1);
 }
 
-.dark\:bg-gray-800:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+.dark\:text-black:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .dark\:text-gray-200:is(.dark *) {
@@ -2423,16 +2331,6 @@ EmojiSymbols;
   color: rgb(228 228 231 / var(--tw-text-opacity, 1));
 }
 
-.dark\:text-neutral-300:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(150 155 167 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-neutral-400:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(127 134 148 / var(--tw-text-opacity, 1));
-}
-
 .dark\:placeholder-gray-400:is(.dark *)::-moz-placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity, 1));
@@ -2441,16 +2339,6 @@ EmojiSymbols;
 .dark\:placeholder-gray-400:is(.dark *)::placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity, 1));
-}
-
-.dark\:placeholder-neutral-400:is(.dark *)::-moz-placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(127 134 148 / var(--tw-placeholder-opacity, 1));
-}
-
-.dark\:placeholder-neutral-400:is(.dark *)::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(127 134 148 / var(--tw-placeholder-opacity, 1));
 }
 
 .dark\:shadow-neutral-800\/40:is(.dark *) {
@@ -2472,22 +2360,12 @@ EmojiSymbols;
   border-color: rgb(3 7 18 / var(--tw-border-opacity, 1));
 }
 
-.dark\:hover\:border-neutral-950:hover:is(.dark *) {
-  --tw-border-opacity: 1;
-  border-color: rgb(10 10 10 / var(--tw-border-opacity, 1));
-}
-
 .dark\:hover\:text-primary-500:hover:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 0 0 / var(--tw-text-opacity, 1));
 }
 
 .dark\:focus\:border-gray-500:focus:is(.dark *) {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
-}
-
-.dark\:focus\:border-neutral-500:focus:is(.dark *) {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
 }
@@ -2500,11 +2378,6 @@ EmojiSymbols;
 .dark\:focus\:ring-primary-900:focus:is(.dark *) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(87 0 0 / var(--tw-ring-opacity, 1));
-}
-
-.dark\:focus\:ring-neutral-500:focus:is(.dark *) {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(107 114 128 / var(--tw-ring-opacity, 1));
 }
 
 @media (min-width: 640px) {
@@ -2533,14 +2406,6 @@ EmojiSymbols;
     margin-bottom: 1.5rem;
   }
 
-  .sm\:ml-3 {
-    margin-left: 0.75rem;
-  }
-
-  .sm\:mt-0 {
-    margin-top: 0px;
-  }
-
   .sm\:mt-12 {
     margin-top: 3rem;
   }
@@ -2553,20 +2418,12 @@ EmojiSymbols;
     display: block;
   }
 
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:h-2\/3 {
     height: 66.666667%;
   }
 
   .sm\:max-w-3xl {
     max-width: 48rem;
-  }
-
-  .sm\:max-w-lg {
-    max-width: 32rem;
   }
 
   .sm\:max-w-xl {
